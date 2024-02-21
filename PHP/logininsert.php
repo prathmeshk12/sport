@@ -25,7 +25,7 @@ if(isset($_POST['btn_login'])){
         
         // Redirect the user to the desired page
         header('Location: ../index1.php');
-        exit();
+        
     } else {
         // Invalid username or password
         echo '<script type="text/javascript">'; 
