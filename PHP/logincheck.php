@@ -6,7 +6,7 @@
         echo 'alert("Invalid Session");'; 
         echo 'window.location.href = "home.php"';
         echo '</script>'; 
-        exit; // Stop further execution of the script
+        exit(); // Stop further execution of the script
     }else{
 		echo 'window.location.href = "index1.php"';
 	}
