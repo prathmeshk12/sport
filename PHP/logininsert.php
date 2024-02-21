@@ -11,7 +11,7 @@ if(isset($_POST['btn_login'])){
      if($data>0){
         $row=mysqli_fetch_array($result);
         session_start();
-        $_SESSION['id']=$row['user_id'];
+       // $_SESSION['id']=$row['user_id'];
         
         
         header('Location: ../index1.php');
