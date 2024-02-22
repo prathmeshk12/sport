@@ -11,7 +11,7 @@ if(isset($_POST['btn_login'])){
   
 if($result == 1)
  { 
-    header("location: index1.php"); 
+    header("location:../ index1.php"); 
  }
 else
  { 
