@@ -17,4 +17,5 @@ else
  { 
     echo " <script>alert('Wrong Email Password Combination'); window.location='login.php'</script> ";
  }
+}
 ?>
