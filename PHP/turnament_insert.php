@@ -24,7 +24,7 @@ if (isset($_POST['btn_t'])) {
 
     // Prepare and execute SQL query
     $q = "INSERT INTO entry_register_tournament (user_id, game_name, name, email, contact, address, apply_date, team_name)
-          VALUES ('$id', '$game', '$name', '$email', '$contact', '$address', '$date', '$team')";
+          VALUES (NULL,'$id', '$game', '$name', '$email', '$contact', '$address', '$date', '$team')";
     $data = mysqli_query($con, $q);
 
     // Check if insertion was successful
