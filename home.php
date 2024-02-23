@@ -174,7 +174,7 @@
 								</div>
 							</a>
 						</li>
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images1/skate.jpg); ">
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images1/skate.png); ">
 							<a href="#">
 								<div class="case-studies-summary">
 									<span>Sports Club</span>
