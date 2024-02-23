@@ -46,16 +46,16 @@
    }
    @keyframes animate{
         0%,100%{
-            background-image:url(images1/bg1.png);
+            background-image:url(images1/bg11.png);
         }
        25%{
-   	       background-image:url(images1/bg2.jpg);
+   	       background-image:url(images1/bg12.jpg);
         }
       50%{
-      	 background-image:url(images1/bg3.jpg);
+      	 background-image:url(images1/bg13.jpg);
        }
        75%{
-       	background-image:url(images1/bg4.jpg);
+       	background-image:url(images1/bg14.jpg);
        }
 
               }
