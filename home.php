@@ -140,7 +140,7 @@
 				<div class="col-md-8 col-md-offset-2 text-center">
 					<div class="display-t">
 						<div class="display-tc animate-box" data-animate-effect="fadeIn">
-							<h1>WELCOME Sports Club</h1>
+							<h1>WELCOME To Sports Club</h1>
 							
 						</div>
 					</div>
@@ -166,7 +166,7 @@
 				<div class="col-md-12">
 					<ul id="fh5co-portfolio-list">
 
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images1/post2.png); ">
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images1/post12.png); ">
 							<a href="#">
 								<div class="case-studies-summary">
 									<span>Sports Club</span>
@@ -174,7 +174,7 @@
 								</div>
 							</a>
 						</li>
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images1/match-start-img.png); ">
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images1/skate.jpg); ">
 							<a href="#">
 								<div class="case-studies-summary">
 									<span>Sports Club</span>
@@ -183,7 +183,7 @@
 							</a>
 						</li>
 
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images1/bg4.jpg); ">
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images1/Basket.jpg); ">
 							<a href="#">
 								<div class="case-studies-summary">
 									<span>Sports Club</span>
@@ -192,7 +192,7 @@
 							</a>
 						</li>
 
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images1/img-07.jpg); "> 
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images1/Timer.jpg); "> 
 							<a href="#">
 								<div class="case-studies-summary">
 									<span>Sports Club</span>
@@ -200,7 +200,7 @@
 								</div>
 							</a>
 						</li>
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images1/img-05.jpg); ">
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images1/images5.jpg); ">
 							<a href="#">
 								<div class="case-studies-summary">
 									<span>Sports Club</span>
@@ -208,7 +208,7 @@
 								</div>
 							</a>
 						</li>
-						<li class="two-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images1/img-04.jpg); ">
+						<li class="two-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images1/Hockeyy.jpg); ">
 							<a href="#">
 								<div class="case-studies-summary">
 									<span>Sports Club</span>
@@ -216,7 +216,7 @@
 								</div>
 							</a>
 						</li>
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images1/main-slider-img1.jpg); ">
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images1/Badmintonn.jpg); ">
 							<a href="#">
 								<div class="case-studies-summary">
 								<span>Sports Club</span>
