@@ -3,7 +3,7 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Online &mdash; Sports Club mangement System</title>
+	<title>Sports Club</title>
 
   
 	<meta property="og:title" content=""/>
@@ -46,16 +46,16 @@
    }
    @keyframes animate{
         0%,100%{
-            background-image:url(images1/bg1.png);
+            background-image:url(images1/bg11.png);
         }
        25%{
-   	       background-image:url(images1/bg2.jpg);
+   	       background-image:url(images1/bg12.jpg);
         }
       50%{
-      	 background-image:url(images1/bg3.jpg);
+      	 background-image:url(images1/bg13.jpg);
        }
        75%{
-       	background-image:url(images1/bg4.jpg);
+       	background-image:url(images1/bg14.jpg);
        }
 
               }
@@ -109,7 +109,7 @@
 				<div class="col-md-8 col-md-offset-2 text-center">
 					<div class="display-t">
 						<div class="display-tc animate-box" data-animate-effect="fadeIn">
-							<h1>WELCOME Sports Club mangement System</h1>
+							<h1>WELCOME To Sports Club </h1>
 							
 						</div>
 					</div>
@@ -131,7 +131,7 @@
 				<div class="col-md-12">
 					<ul id="fh5co-portfolio-list">
 
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images1/post2.png); ">
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images1/post12.png); ">
 							<a href="#">
 								<div class="case-studies-summary">
 									<span>Sports Club</span>
@@ -139,7 +139,7 @@
 								</div>
 							</a>
 						</li>
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images1/match-start-img.png); ">
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images1/img-05.jpg); ">
 							<a href="#">
 								<div class="case-studies-summary">
 									<span>Sports Club</span>
@@ -148,7 +148,7 @@
 							</a>
 						</li>
 
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images1/bg4.jpg); ">
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images1/bg14.jpg); ">
 							<a href="#">
 								<div class="case-studies-summary">
 									<span>Sports Club</span>
@@ -157,7 +157,7 @@
 							</a>
 						</li>
 
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images1/img-07.jpg); "> 
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images1/img-03_002.jpg); "> 
 							<a href="#">
 								<div class="case-studies-summary">
 									<span>Sports Club</span>
@@ -165,7 +165,7 @@
 								</div>
 							</a>
 						</li>
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images1/img-05.jpg); ">
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images1/virat.jpg); ">
 							<a href="#">
 								<div class="case-studies-summary">
 									<span>Sports Club</span>
@@ -173,7 +173,7 @@
 								</div>
 							</a>
 						</li>
-						<li class="two-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images1/img-04.jpg); ">
+						<li class="two-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images1/img-05.jpg); ">
 							<a href="#">
 								<div class="case-studies-summary">
 									<span>Sports Club</span>
@@ -181,7 +181,7 @@
 								</div>
 							</a>
 						</li>
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images1/main-slider-img1.jpg); ">
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images1/post12.jpg); ">
 							<a href="#">
 								<div class="case-studies-summary">
 								<span>Sports Club</span>
