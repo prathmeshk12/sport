@@ -3,15 +3,12 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Online &mdash; Sports Club mangement System</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Free HTML5 Website Template by freehtml5.co" />
-	<meta name="keywords" content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
-	<meta name="author" content="freehtml5.co" />
+	<title>Sports Club</title>
+
 
 	
 
-  	<!-- Facebook and Twitter integration -->
+ 
 	<meta property="og:title" content=""/>
 	<meta property="og:image" content=""/>
 	<meta property="og:url" content=""/>
@@ -24,24 +21,23 @@
 
 	<link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,700,800" rel="stylesheet">
 	
-	<!-- Animate.css -->
 	<link rel="stylesheet" href="css/animate.css">
-	<!-- Icomoon Icon Fonts-->
+
 	<link rel="stylesheet" href="css/icomoon.css">
-	<!-- Bootstrap  -->
+
 	<link rel="stylesheet" href="css/bootstrap.css">
 
-	<!-- Magnific Popup -->
+
 	<link rel="stylesheet" href="css/magnific-popup.css">
 
-	<!-- Owl Carousel  -->
+	
 	<link rel="stylesheet" href="css/owl.carousel.min.css">
 	<link rel="stylesheet" href="css/owl.theme.default.min.css">
 
-	<!-- Theme style  -->
+	
 	<link rel="stylesheet" href="css/style.css">
 
-	<!-- Modernizr JS -->
+	
 	<script src="js/modernizr-2.6.2.min.js"></script>
 	
 	
@@ -53,16 +49,16 @@
    }
    @keyframes animate{
         0%,100%{
-            background-image:url(images1/bg1.png);
+            background-image:url(images1/bg11.png);
         }
        25%{
-   	       background-image:url(images1/bg2.jpg);
+   	       background-image:url(images1/bg12.jpg);
         }
       50%{
-      	 background-image:url(images1/bg3.jpg);
+      	 background-image:url(images1/bg13.jpg);
        }
        75%{
-       	background-image:url(images1/bg4.jpg);
+       	background-image:url(images1/bg14.jpg);
        }
 
               }
@@ -144,7 +140,7 @@
 				<div class="col-md-8 col-md-offset-2 text-center">
 					<div class="display-t">
 						<div class="display-tc animate-box" data-animate-effect="fadeIn">
-							<h1>WELCOME Sports Club mangement System</h1>
+							<h1>WELCOME Sports Club</h1>
 							
 						</div>
 					</div>

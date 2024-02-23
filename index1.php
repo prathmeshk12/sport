@@ -3,7 +3,7 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Online &mdash; Sports Club mangement System</title>
+	<title>Sports Club </title>
 
 
 
@@ -111,7 +111,7 @@
 				<div class="col-md-8 col-md-offset-2 text-center">
 					<div class="display-t">
 						<div class="display-tc animate-box" data-animate-effect="fadeIn">
-							<h1>WELCOME Sports Club mangement System</h1>
+							<h1>WELCOME Sports Club</h1>
 							
 						</div>
 					</div>
