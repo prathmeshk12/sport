@@ -118,7 +118,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-xs-12 text-right">
-						<p class="num">Call: +91 721 885 5505</p>
+						<p class="num">Call: +91 960 449 9066</p>
 						<ul class="fh5co-social">
 							<li><a href="#"><i class="icon-twitter"></i></a></li>
 							<li><a href="#"><i class="icon-dribbble"></i></a></li>
