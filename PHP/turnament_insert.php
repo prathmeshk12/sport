@@ -15,7 +15,12 @@ if (isset($_SESSION['id']) && isset($_POST['btn_t'])) {
     //include('connection_db.php');
 
     // Create a new mysqli connection
-    $con = new mysqli("apache.mysql.database.azure.com", "aditya0480", "@Abhi0480", "sportclub");
+    $con = new mysqli(
+        "apache.mysql.database.azure.com",
+        $_ENV['AZURE_MYSQL_USERNAME'],
+        $_ENV['AZURE_MYSQL_PASSWORD'],
+        "sportclub"
+    );
 
     // Check connection
     if ($con->connect_error) {
