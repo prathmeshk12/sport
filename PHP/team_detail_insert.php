@@ -45,7 +45,8 @@ if (isset($_POST['btn_t'])) {
         }
     } else {
         // Session variable not set
-        echo "Session variable 'id' not set.";
+        echo "<script>alert('Submitted Sucessfully');</script>";
+        header("Location: index1.php");
     }
 } else {
     // Form not submitted
