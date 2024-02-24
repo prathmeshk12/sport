@@ -26,7 +26,8 @@ header('Location:../player_registration.php');
 
     }
   else{
-    echo"faild";
+    header('Location:../player_registration.php');
+    //echo"faild";
   }
    }
 
