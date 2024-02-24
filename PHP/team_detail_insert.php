@@ -10,7 +10,7 @@
    $extra=$_POST['extra'];
    
   
-   include('connection_db.php');
+   include('./connection_db.php');
    $con = new mysqli(
 		"apache.mysql.database.azure.com",
 		$_ENV['AZURE_MYSQL_USERNAME'],
