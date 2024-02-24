@@ -31,8 +31,8 @@ if (isset($_SESSION['id']) && isset($_POST['btn_t'])) {
 
     // Execute the statement
     if ($stmt->execute()) {
-        echo '<script>alert("Registration Successfully");</script>';
-        echo 'window.location.href = "../team_details.php";';
+        header("Location: ../team_details.php");
+        exit(); 
     } else {
         echo "Error: " . $stmt->error;
     }
