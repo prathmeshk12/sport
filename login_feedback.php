@@ -72,7 +72,7 @@
 					<div class="display-t">
 						<div class="display-tc animate-box" data-animate-effect="fadeIn">
 							<h1>Contact Us</h1>
-							<h2>Sports Club Management System <a href="index1.php" target="_blank"></a></h2>
+							<h2>Sports Club<a href="index1.php" target="_blank"></a></h2>
 						</div>
 					</div>
 				</div>
