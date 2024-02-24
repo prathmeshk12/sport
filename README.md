@@ -59,9 +59,13 @@ Safely handles the keys and secrets utilized within the application.
 ### Azure App Service :
 Description :Azure App Service provides a scalable and reliable hosting environment for the Sport Club, ensuring seamless deployment and continuous availability to optimize the user experience.
 
+![App service](https://github.com/prathmeshk12/sport/assets/155044248/59570a2c-067b-4511-9a3b-981968860fda)
+
 
 ### 2) Azure Database For MySQL :
 Description :The project utilizes Azure MySQL as its database solution to effectively manage and store user interaction history. Azure MySQL offers a dependable relational database service, ensuring data availability, reliability, and fast retrieval, resulting in seamless user experiences.
+
+![Database](https://github.com/prathmeshk12/sport/assets/155044248/0a7a069d-cfdc-4789-a466-c8c523ff443c)
 
 
 ## Azure AI Service :
@@ -69,14 +73,25 @@ Description :The project utilizes Azure MySQL as its database solution to effect
 ### Azure Bot Service(Language Service):
 Description :Azure Bot Service enables Sport Club to offer interactive and responsive bot experiences, improving user engagement and satisfaction with smooth deployment and uninterrupted availability.
 
+![chatbot](https://github.com/prathmeshk12/sport/assets/155044248/2622d00e-e219-46f6-a616-bb54db2d08fd)
+
+![bot service](https://github.com/prathmeshk12/sport/assets/155044248/58e196e9-b931-450d-8b92-3e65be91f9ea)
+
+
 
 ### Working Live Project Display :
 
 Below is a screenshot of the live website, showcasing the project in action for your reference and evaluation.
 
+![Screenshot 2024-02-24 121013](https://github.com/prathmeshk12/sport/assets/155044248/c41edb37-ba0a-4ebf-b682-442cbefb6cd0)
+
+
 ### Resource Visualizer :
 Description: 
 Attached is a screenshot of the resource visualizer, offering a detailed overview of the utilized resources for reference and documentation.
+
+![visualizer](https://github.com/prathmeshk12/sport/assets/155044248/32d09a5b-0056-43bf-b3c4-bf229d7fd155)
+
 
 ### Final Project Statement :
 The Sport Club Website is a versatile and user-friendly solution that harnesses Azure services to provide a comprehensive platform for sports enthusiasts. Utilizing Azure App Service, Web Apps, and the Azure AI Bot Service, this project offers seamless interaction, efficient management of sports-related information, and personalized guidance to users. By leveraging these technologies, the Sport Club Website ensures a smooth and productive experience for athletes and enthusiasts, catering to diverse needs in the sports community.
