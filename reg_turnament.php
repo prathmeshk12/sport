@@ -89,7 +89,7 @@
 						</div>
 							<div class="col-md-12">
 								<tr>
-								<h1>TURNAMENT REGISTRATION!</h1>
+								<h1>TOURNAMENT REGISTRATION!</h1>
 								</tr>
 								<tr>
 								<td>Name:</td>
