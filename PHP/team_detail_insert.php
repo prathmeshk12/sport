@@ -11,6 +11,7 @@
    
   
    include('connection_db.php');
+   $con = new mysqli("apache.mysql.database.azure.com", "aditya0480", "@Abhi0480", "sportclub");
    $q="INSERT INTO team_detail(user_id, team_name, team_captian, total_player, participate_player, extra_player)VALUES('$id','$tname','$cname','$total','$participate','$extra') ";
   $data=mysqli_query($con,$q);
     if($data){
