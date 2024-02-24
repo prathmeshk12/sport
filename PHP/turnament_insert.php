@@ -1,6 +1,6 @@
 <?php
  session_start();
- $con=new mysqli("apache.mysql.database.azure.com","aditya0480","@Abhi0480","sportclub");
+
   $id=$_SESSION['id'];
    if(isset($_POST['btn_t'])){
 
@@ -14,18 +14,18 @@
   
    include('connection_db.php');
    
-	
+	 $con=new mysqli("apache.mysql.database.azure.com","aditya0480","@Abhi0480","sportclub");
    $q="INSERT INTO entry_register_tournament(user_id, game_name, name, email, contact, address, apply_date, team_name)VALUES('$id','$game','$name','$email','$contact','$address','$date','$team') ";
   $data=mysqli_query($con,$q);
     if($data){
      
-        echo '<script type="text/javascript">'; 
-     echo 'alert("Registration Successfully");'; 
-echo 'window.location.href = "../team_details.php";';
-echo '</script>';
+       // echo '<script type="text/javascript">'; 
+     echo '<script>alert("Registration Successfully")</script>;'; 
+           echo 'window.location.href = "../team_details.php";';
+//echo '</script>';
     }
   else{
-    echo"faild";
+    echo "faild";
   }
    }
 
