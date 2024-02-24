@@ -23,8 +23,8 @@ if (isset($_SESSION['id']) && isset($_POST['btn_t'])) {
     }
 
     // Prepare the INSERT statement using a prepared statement
-    $stmt = $con->prepare("INSERT INTO entry_register_tournament (user_id, game_name, name, email, contact, address, apply_date, team_name) VALUES (?, ?, ?, ?, ?, ?, ?, ?)");
-    $stmt->bind_param("isssssss", $id, $game, $name, $email, $contact, $address, $date, $team);
+    $stmt = $con->prepare("INSERT INTO entry_register_tournament (r_id, user_id, game_name, name, email, contact, address, apply_date, team_name) VALUES (?,?,?,?,?,?,?,?,?)");
+    $stmt->bind_param("iiissssss", $id, $id, $game, $name, $email, $contact, $address, $date, $team);
 
     // Execute the statement
     if ($stmt->execute()) {
