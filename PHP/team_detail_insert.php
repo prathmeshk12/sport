@@ -45,7 +45,7 @@ if (isset($_POST['btn_t'])) {
         }
     } else {
         // Session variable not set
-        echo "<script>alert('Submitted Sucessfully');window.location='index1.php'</script>";
+        echo "<script>alert('Submitted Sucessfully');window.location='../index1.php'</script>";
         
         header("Location: ../index1.php");
     }
