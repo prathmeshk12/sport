@@ -13,6 +13,7 @@ Welcome to Sport Club, where passion for sports meets advanced technology for an
 ## Azure Services Used :- 
 ### 1)Core Azure Services:
 1.Azure App Service:In this setup, I have deployed a front-end consisting of HTML, CSS, and JavaScript for user interaction, along with a backend implemented in PHP.
+
 2.The Azure Database for MySQL servers:It is utilized to create and manage a MySQL database for storing player data. Additionally, we're leveraging Azure AI Services, specifically the Azure AI Bot Service (Language Service), to enable natural language conversations with AI-powered bots. This facilitates efficient query resolution and problem-solving through interactive communication.
 ### 2)Azure AI Service :
 Azure AI Bot Service, specifically the Language Service, enables users to interact with AI-powered bots through natural language conversations. This feature enhances communication efficiency by allowing users to address queries and solve problems interactively.
