@@ -10,7 +10,13 @@
    $extra=$_POST['extra'];
    
   
-   include('./connection_db.php');
+  // include('./connection_db.php');
+  $con = new mysqli(
+		"apache.mysql.database.azure.com",
+		$_ENV['AZURE_MYSQL_USERNAME'],
+		$_ENV['AZURE_MYSQL_PASSWORD'],
+		"sportclub"
+	);
 $q = "INSERT INTO team_detail (user_id, team_name, team_captain, total_player, participate_player, extra_player) VALUES ('$id','$tname','$cname','$total','$participate','$extra')";
   $data=mysqli_query($con,$q);
     if($data){
