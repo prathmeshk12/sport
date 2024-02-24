@@ -17,14 +17,21 @@ if (isset($_POST['btn_t'])) {
         // Include database connection
         include('./connection_db.php');
 
+        // Establish database connection
+        $con = new mysqli(
+            "apache.mysql.database.azure.com",
+            $_ENV['AZURE_MYSQL_USERNAME'],
+            $_ENV['AZURE_MYSQL_PASSWORD'],
+            "sportclub"
+        );
+
+        // Check for connection errors
+        if ($con->connect_error) {
+            die("Connection failed: " . $con->connect_error);
+        }
+
         // Prepare and execute the SQL query
         $q = "INSERT INTO team_detail (user_id, team_name, team_captain, total_player, participate_player, extra_player) VALUES ('$id','$tname','$cname','$total','$participate','$extra')";
-        $con = new mysqli(
-          "apache.mysql.database.azure.com",
-          $_ENV['AZURE_MYSQL_USERNAME'],
-          $_ENV['AZURE_MYSQL_PASSWORD'],
-          "sportclub"
-      );
         $data = mysqli_query($con, $q);
 
         // Check if the query was successful
