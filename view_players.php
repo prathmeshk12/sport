@@ -113,6 +113,12 @@
  <?php
            $id=$_SESSION['id'];
             include('./PHP/connection_db.php');
+			$con = new mysqli(
+				"apache.mysql.database.azure.com",
+				$_ENV['AZURE_MYSQL_USERNAME'],
+				$_ENV['AZURE_MYSQL_PASSWORD'],
+				"sportclub"
+			);
               $sql="SELECT p_id, player_name, p_designation, p_type, contact, team_name, p_image FROM player_detail WHERE user_id='$id'";
                $query=mysqli_query($con,$sql);
               while($row=mysqli_fetch_array($query)){
