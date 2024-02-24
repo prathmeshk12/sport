@@ -2,15 +2,21 @@
 session_start();
 
 if (isset($_POST['btn_t'])) {
+    // Assign values from the form to variables
     $id = $_SESSION['id'];
     $tname = $_POST['tname'];
-    $cname = $_POST['tcaptain']; // corrected variable name
+    $cname = $_POST['tcaptain']; 
     $total = $_POST['totalp'];
     $participate = $_POST['participate'];
     $extra = $_POST['extra'];
 
     // Establish database connection
-    $sql="INSERT INTO users(user_name,user_email,user_password,user_contact,register_date,user_address) VALUES('$uname','$uemail','$upass','$contact','$regdate','$uadd')";
+    $con = new mysqli(
+      "apache.mysql.database.azure.com",
+      $_ENV['AZURE_MYSQL_USERNAME'],
+      $_ENV['AZURE_MYSQL_PASSWORD'],
+      "sportclub"
+    );
 
     // Check for connection errors
     if ($con->connect_error) {
