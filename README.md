@@ -8,7 +8,7 @@ Welcome to Sport Club, where passion for sports meets advanced technology for an
 ### Project Demo URL : https://sportclubpk.azurewebsites.net/home.php
 ### Demo Video URL : https://drive.google.com/file/d/1Pg38F-A9TVZf0xAbAgoJWsJXjQFKqeFP/view?usp=sharing
 ### Github Repository URL : https://github.com/prathmeshk12/sport
-### Industry : Health
+### Industry : Lifestyle
 
 ## Azure Services Used :- 
 ### 1)Core Azure Services:
