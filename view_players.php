@@ -119,7 +119,7 @@
             include('./PHP/connection_db.php');
 			$con = new mysqli($servername, $username, $password, $database);
 			$id=$_SESSION['id'];
-              $sql="SELECT p_id, player_name, p_designation, p_type, contact, team_name, p_image FROM player_detail";
+              $sql="SELECT p_id, player_name, p_designation, p_type, contact, team_name FROM player_detail";
                $query=mysqli_query($con,$sql);
               while($row=mysqli_fetch_array($query)){
               	
