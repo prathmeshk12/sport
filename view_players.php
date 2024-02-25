@@ -112,13 +112,12 @@
 			<div class="row row-bottom-padded-md">
  <?php
            $id=$_SESSION['id'];
+		   $servername = "apache.mysql.database.azure.com";
+		   $username = $_ENV['MYSQL_USERNAME'];
+		   $password = $_ENV['MYSQL_PASSWORD'];
+		   $database="sportclub";
             include('./PHP/connection_db.php');
-			$con = new mysqli(
-				"apache.mysql.database.azure.com",
-				$_ENV['AZURE_MYSQL_USERNAME'],
-				$_ENV['AZURE_MYSQL_PASSWORD'],
-				"sportclub"
-			);
+			$con = new mysqli($servername, $username, $password, $database);
               $sql="SELECT p_id, player_name, p_designation, p_type, contact, team_name, p_image FROM player_detail WHERE user_id='$id'";
                $query=mysqli_query($con,$sql);
               while($row=mysqli_fetch_array($query)){
