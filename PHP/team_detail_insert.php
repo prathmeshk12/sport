@@ -1,6 +1,9 @@
 <?php
 session_start();
-
+$servername = "apache.mysql.database.azure.com";
+$username = $_ENV['MYSQL_USERNAME'];
+$password = $_ENV['MYSQL_PASSWORD'];
+$database="sportclub";
 // Check if the form is submitted
 if (isset($_POST['btn_t'])) {
     // Retrieve form data
@@ -18,12 +21,8 @@ if (isset($_POST['btn_t'])) {
         include('./connection_db.php');
 
         // Establish database connection
-        $con = new mysqli(
-            "apache.mysql.database.azure.com",
-            $_ENV['AZURE_MYSQL_USERNAME'],
-            $_ENV['AZURE_MYSQL_PASSWORD'],
-            "sportclub"
-        );
+        $con = new mysqli($servername, $username, $password, $database);
+        
 
         // Check for connection errors
         if ($con->connect_error) {
