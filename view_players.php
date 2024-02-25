@@ -137,7 +137,7 @@
 							<h3><a href=""><?=$row['player_name']?></a></h3>
 						
 			
-<div style="width: 60%; margin-left: 120px; height: 100px; margin-top:20px;"><img height="100%px" width="100%" border="3px" src="images1/player_images/"></div>
+<div ></div>
 						
 							<span class="posted_on"><?=$row['team_name']?></span>
 							<hr>
