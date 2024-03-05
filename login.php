@@ -109,6 +109,20 @@
 			<th></th><br>
 			<th></th><br>
 			<br>
+			<div class="row form-group">
+							<div class="col-md-8">
+								<tr>
+								<h1>ADMIN LOGIN!</h1>
+								</tr>
+								<div class="form-group">
+							<tr>
+								<td>&nbsp;</td>
+								<td><input type="button" value="click-here" name="btn_login" class="btn btn-primary"> &nbsp; &nbsp;   
+								<a href="prathmeshk12/sport/admin/admin_login.html" class="btn btn-primary">RESET</td>
+
+							</tr>
+							</div>
+						</div>
 			<br>
 			<br>
 		<?php
