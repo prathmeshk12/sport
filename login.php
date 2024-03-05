@@ -101,17 +101,10 @@
 							</tr>
 
 						</div><br><br>
-						<div class="row form-group">
-							<div class="col-md-8">
-								<tr>
-								<h1>Admin LOGIN!</h1>
-								</tr>
-								<tr>
-								
-							</tr>
-							</div>
+						
 						</form>
-                    </table>
+                    </table><br>
+					<h1> Admin Login</h1>
 					<button onclick="redirectToAdminLogin()" class="btn btn-primary">Click Here</button>
 							
 				</div>
