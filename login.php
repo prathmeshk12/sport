@@ -103,26 +103,13 @@
 						</div>
 						</form>
                     </table>
+					<button onclick="redirectToAdminLogin()" class="btn btn-primary">Admin Login</button>
 							
 				</div>
 			</div>
 			<th></th><br>
 			<th></th><br>
 			<br>
-			<div class="row form-group">
-							<div class="col-md-8">
-								<tr>
-								<h1>ADMIN LOGIN!</h1>
-								</tr>
-								<div class="form-group">
-							<tr>
-								<td>&nbsp;</td>
-								<td><input type="button" value="click-here" name="btn_login" class="btn btn-primary"> &nbsp; &nbsp;   
-								<a href="prathmeshk12/sport/admin/admin_login.html" class="btn btn-primary">RESET</td>
-
-							</tr>
-							</div>
-						</div>
 			<br>
 			<br>
 		<?php
@@ -155,7 +142,12 @@
 	<script src="js/google_map.js"></script>
 
 	<script src="js/main.js"></script>
-
+	<script>
+        // JavaScript function to redirect to admin login page
+        function redirectToAdminLogin() {
+            window.location.href = "https://sportclubpk.azurewebsites.net/admin/admin_login.html";
+        }
+    </script>
 	</body>
 </html>
 
