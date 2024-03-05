@@ -14,8 +14,10 @@ if(isset($_POST['btn_log'])){
         $_SESSION['id']=$row['admin_id'];
         
          echo"<script> alert('login successful');</script>";
-        header('Location: ./admin_operations/login_home.php');
+         echo 'window.location.href = "./admin_operations/login_home.php";';
 
+        header('Location: ./admin_operations/login_home.php');
+      exit();
      }
      else{
           echo '<script type="text/javascript">'; 
