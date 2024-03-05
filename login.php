@@ -100,10 +100,19 @@
 
 							</tr>
 
-						</div>
+						</div><br><br>
+						<div class="row form-group">
+							<div class="col-md-8">
+								<tr>
+								<h1>Admin LOGIN!</h1>
+								</tr>
+								<tr>
+								
+							</tr>
+							</div>
 						</form>
                     </table>
-					<button onclick="redirectToAdminLogin()" class="btn btn-primary">Admin Login</button>
+					<button onclick="redirectToAdminLogin()" class="btn btn-primary">Click Here</button>
 							
 				</div>
 			</div>
