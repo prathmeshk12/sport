@@ -13,7 +13,7 @@ if(isset($_POST['btn_log'])){
         session_start();
         $_SESSION['id']=$row['admin_id'];
         
-         echo"<script> alert('login successful');</script>";
+         //echo"<script> alert('login successful');</script>";
         header('Location: ./admin_operations/login_home.php');
       exit();
      }
