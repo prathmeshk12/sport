@@ -10,7 +10,7 @@ $mdate=$_POST['m_date'];
 $mtime=$_POST['m_time'];
 
 
-  required_once('connection_db.php');
+  required('connection_db.php');
 
 $sql="INSERT INTO schedule(game_name,groupA_team_name,groupB_team_name,place,  s_date,s_time)VALUES('$gname','$teama','$teamb','$place','$mdate','$mtime')";
   $data=mysqli_query($con,$sql);
