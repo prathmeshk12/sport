@@ -12,6 +12,12 @@
    $team=$_POST['team'];
   
    include('connection_db.php');
+   $con = new mysqli(
+    "apache.mysql.database.azure.com",
+    $_ENV['AZURE_MYSQL_USERNAME'],
+    $_ENV['AZURE_MYSQL_PASSWORD'],
+    "sportclub"
+);
    $q="INSERT INTO entry_register_tournament(user_id, game_name, name, email, contact, address, apply_date, team_name)VALUES('$id','$game','$name','$email','$contact','$address','$date','$team') ";
   $data=mysqli_query($con,$q);
     if($data){

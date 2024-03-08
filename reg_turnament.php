@@ -73,6 +73,12 @@
                                 if(isset($_GET['rid'])){
                                    $rid=$_GET['rid'];
                                     include('./PHP/connection_db.php');
+									$con = new mysqli(
+										"apache.mysql.database.azure.com",
+										$_ENV['AZURE_MYSQL_USERNAME'],
+										$_ENV['AZURE_MYSQL_PASSWORD'],
+										"sportclub"
+									);
                                     $q="SELECT game_name FROM tournament WHERE t_id='$rid'";
                                   $data=mysqli_query($con,$q);
                                    $row=mysqli_fetch_array($data);
