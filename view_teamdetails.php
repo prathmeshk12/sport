@@ -111,8 +111,8 @@
 			
 			<div class="row row-bottom-padded-md">
  <?php
-           $id=$_SESSION['id'];
-            include('./PHP/connection_db.php');
+          
+            include('./PHP/connection_db.php'); $id=$_SESSION['id'];
               $sql="SELECT team_id, team_name, team_captian, total_player, participate_player, extra_player FROM team_detail WHERE user_id='$id'";
                $query=mysqli_query($con,$sql);
               while($row=mysqli_fetch_array($query)){
