@@ -1,6 +1,6 @@
 <?php
 if(isset($_POST['btn_log'])){
-    
+
      $uemail=addslashes($_POST['username']);
      $upass=addslashes($_POST['password']);
 
