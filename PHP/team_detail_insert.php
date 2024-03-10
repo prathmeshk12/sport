@@ -1,5 +1,6 @@
 <?php
  session_start();
+ require_once('logincheck.php');
   $id=$_SESSION['id'];
    if(isset($_POST['btn_t'])){
 
