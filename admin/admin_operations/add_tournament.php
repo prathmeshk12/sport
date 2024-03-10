@@ -110,7 +110,7 @@
          <div class="box">
     <form method="post" action="./php/insert_tournament.php">
    <table class="tbl" cellpadding="2px">
-      
+      <br>
    <tr>
      <td colspan="2" align="left">Game Name :</th>
      <th colspan="2"><input type="text" id="tf" name="g_name"></th>
