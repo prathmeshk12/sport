@@ -17,7 +17,7 @@
     if($data){
      
       //  echo '<script type="text/javascript">';
-        header('Location: ../team_details.php'.$id); 
+        header('Location: ../team_details.php'.$_SESSION['id']); 
 #echo 'alert("Registration Successfully");'; 
 //echo 'window.location.href = "../team_details.php";';
 echo '</script>';
