@@ -3,7 +3,7 @@
 
     if (!isset($_SESSION['id'])) {
         header('Location: home.php');
-		ehco "Invalid Session";
+		ehco ("Invalid Session");
         exit(); // Add exit() to stop further execution
     }
 ?>
