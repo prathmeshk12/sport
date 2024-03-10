@@ -8,7 +8,7 @@
 					</div>
 					<div class="col-xs-10 text-right menu-1">
 						<ul>
-							<li class="active"><a href="index1.php">Home</a></li>
+							<li class="active"><a href="home.php">Home</a></li>
 							
 							<li><a href="about.php">about</a></li>
 							
