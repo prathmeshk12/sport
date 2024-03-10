@@ -3,7 +3,7 @@
 
   $id=$_SESSION['id'];
    if(isset($_POST['btn_t'])){
-
+echo $id;
    $tname=$_POST['tname'];
    $cname=$_POST['tcaptian'];
    $total=$_POST['totalp'];
