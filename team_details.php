@@ -75,7 +75,6 @@
 							<div class="col-md-12">
 								<tr>
 								<td>Team Name:</td>
-								<input type="hidden" name="session_id" value="<?php echo $_SESSION['id']; ?>">
 								<td><input type="text" id="name" name="tname" class="form-control" required></td>
 							</tr>
 							</div>
