@@ -1,8 +1,8 @@
 <?php
-$servername = "apache.mysql.database.azure.com";
-$username = $_ENV['MYSQL_USERNAME'];
-$password = $_ENV['MYSQL_PASSWORD'];
-$database="sportclub";
-$con = new mysqli($servername, $username, $password, $database);
-        
+$con = new mysqli(
+    "apache.mysql.database.azure.com",
+    $_ENV['AZURE_MYSQL_USERNAME'],
+    $_ENV['AZURE_MYSQL_PASSWORD'],
+    "sportclub"
+);
 ?>
