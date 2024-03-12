@@ -64,7 +64,7 @@
 	<?php
          include("commonpages/loginheader.php")
 		 session_start();
-		 $id=$_GET['session_id'];
+		 $id = isset($_GET['session_id']) ? intval($_GET['session_id']) : 0;
 		?>
 	</nav>
 				<div class="col-md-12 animate-box" align="center">

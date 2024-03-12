@@ -3,7 +3,7 @@
 
    if(isset($_POST['btn_ps'])){
 
-   $id= $_POST['id'];
+   $id= isset($_POST['tid']) ? intval($_POST['tid']) : 0;
    $img=$_FILES['image']['name'];
    $name=$_POST['name'];
    $pdesign=$_POST['p_design'];
