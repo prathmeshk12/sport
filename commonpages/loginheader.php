@@ -11,7 +11,7 @@ session_start();
 					</div>
 					<div class="col-xs-10 text-right menu-1">
 						<ul>
-							<li class="active"><a href="index.php">Home</a></li>
+							<li class="active"><a href="index1.php">Home</a></li>
 							<li><a href="login_about.php">About</a></li>
 							 <li><a href="view_players.php">Players-Details</a></li>
 							 <li><a href="view_teamdetails.php">Team-Details</a></li>
