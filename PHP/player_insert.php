@@ -1,7 +1,6 @@
 <?php
  session_start();
 
- 
    if(isset($_POST['btn_ps'])){
  $id=$_POST['id'];
    $img=$_FILES['image']['name'];
