@@ -1,6 +1,6 @@
 <?php
 session_start();
-$session_id=$_GET['id'];
+$id=$_GET['session_id'];
 ?>
 <!DOCTYPE HTML>
 <html>
@@ -66,7 +66,7 @@ $session_id=$_GET['id'];
 		</div>
 	<?php
          include("commonpages/loginheader.php")
-		 session_start();
+		
 		?>
 	</nav>
 				<div class="col-md-12 animate-box" align="center">
@@ -141,7 +141,7 @@ $session_id=$_GET['id'];
 						<div class="form-group">
 							<tr>
 								<td>&nbsp;</td>
-								<input type="hidden" name="id" value="<?=$session_id?>">
+								<input type="hidden" name="id" value="<?=$id?>">
 
 								<td><input type="submit" value="submit" class="btn btn-primary" name="btn_ps"> &nbsp; &nbsp; &nbsp;  
 						<input type="submit" value="Reset" class="btn btn-primary"></td>

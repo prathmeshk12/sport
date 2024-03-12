@@ -17,7 +17,7 @@
      
         echo '<script type="text/javascript">'; 
 echo 'alert("Registration Successfully");'; 
-header('Location: ../player_registration.php?id=' . urlencode($id));
+header('Location: ../player_registration.php?session_id=' . urlencode($id));
 echo '</script>';
     }
   else{
