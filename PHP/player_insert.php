@@ -1,7 +1,9 @@
-<?php  
+<?php
  session_start();
-  if(isset($_POST['btn_ps'])){
-   $id= isset($_POST['tid']) ? intval($_POST['tid']) : 0;
+
+   if(isset($_POST['btn_ps'])){
+  $id= isset($_POST['tid']) ? intval($_POST['tid']) : 0;
+   $id= $_SESSION['id'];
    $img=$_FILES['image']['name'];
    $name=$_POST['name'];
    $pdesign=$_POST['p_design'];
@@ -17,10 +19,10 @@
    $data=mysqli_query($con,$q);
      if($data){
       //move_uploaded_file($_FILES['image']['tmp_name'],"../images1/player_images/$img");
-         echo '<script type="text/javascript">'; 
- echo 'alert("Registration Successfully");'; 
- echo 'window.location.href = "../player_registration.php";';
- echo '</script>';
+         //echo '<script type="text/javascript">'; 
+ //echo 'alert("Registration Successfully");'; 
+ header('Location:  ../player_registration.php?session_id=' . urlencode($id)';
+ 
      }
    else{
      echo"faild";
