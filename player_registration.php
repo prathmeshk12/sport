@@ -1,5 +1,5 @@
 <?php
-
+session_start();
 $session_id=$_GET['id'];
 ?>
 <!DOCTYPE HTML>
@@ -66,6 +66,7 @@ $session_id=$_GET['id'];
 		</div>
 	<?php
          include("commonpages/loginheader.php")
+		 session_start();
 		?>
 	</nav>
 				<div class="col-md-12 animate-box" align="center">

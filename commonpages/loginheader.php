@@ -1,8 +1,5 @@
 
-<?php
-// Start the session
-session_start();
-?>
+
 <div class="top-menu">
 			<div class="container">
 				<div class="row">
