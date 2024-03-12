@@ -212,7 +212,7 @@ if(!isset($_SESSION['id'])) {
 
 // Now you can access $_SESSION['id'] anywhere in this file
 // For example:
-$user_id = $_SESSION['id'];
+$id = $_SESSION['id'];
 ?>
 	<div id="fh5co-services" class="fh5co-bg-section" style="height: 40px; padding: 4em;">
 		<H1 align="center"><font color="black"><span id="font"><u>UPCOMNING TOURNAMENTS</u></span></font></H1>
