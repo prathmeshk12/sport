@@ -2,7 +2,7 @@
  session_start();
 
    if(isset($_POST['btn_ps'])){
-  include('./logininsert.php');
+  require_once('../index1.php');
    $id= $_SESSION['id'];
    $img=$_FILES['image']['name'];
    $name=$_POST['name'];
