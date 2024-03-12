@@ -73,7 +73,11 @@
                       <table width="40%" height="500px">
 						<div class="row form-group">
 							<div class="row form-group">
-							
+							<?php
+         
+	
+		 $id = isset($_GET['session_id']) ? intval($_GET['session_id']) : 0;
+		?>
 						</div>
 							<div class="col-md-12">
 								<tr>
@@ -130,6 +134,7 @@
 								<tr>
 								<td>Player Image:</td>
 								<td><input type="file" id="gametype" name="image" ></td>
+								<input type="hidden" name="tid" value="<?=$id?>">
 							</tr>
 							</div>
 						</div>
@@ -139,7 +144,7 @@
 						<div class="form-group">
 							<tr>
 								<td>&nbsp;</td>
-								<input type="hidden" name="tid" value="<?=$id?>">
+								
 
 								<td><input type="submit" value="submit" class="btn btn-primary" name="btn_ps"> &nbsp; &nbsp; &nbsp;  
 						<input type="submit" value="Reset" class="btn btn-primary"></td>
