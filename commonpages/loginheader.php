@@ -1,20 +1,4 @@
 
-
-<?php
-// Start the session
-session_start();
-
-// Check if the session variable 'id' is set
-if(!isset($_SESSION['id'])) {
-    // Redirect to the login page if the session variable 'id' is not set
-    header("Location: login.php");
-    exit();
-}
-
-// Now you can access $_SESSION['id'] anywhere in this file
-// For example:
-$id = $_SESSION['id'];
-?>
 <div class="top-menu">
 			<div class="container">
 				<div class="row">
