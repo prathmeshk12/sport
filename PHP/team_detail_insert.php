@@ -11,7 +11,7 @@
    
   
    include('./connection_db.php');
-   $q="INSERT INTO team_detail(user_id, team_name, team_captian, total_player, participate_player, extra_player)VALUES('$id','$tname','$cname','$total','$participate','$extra') ";
+   $q="INSERT INTO team_detail(user_id, team_name, team_captain, total_player, participate_player, extra_player)VALUES('$id','$tname','$cname','$total','$participate','$extra') ";
   $data=mysqli_query($con,$q);
     if($data){
      
