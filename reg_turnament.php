@@ -65,7 +65,7 @@
 	</nav>
 				<div class="col-md-12 animate-box" align="center">
 					
-				<form action="./PHP/turnament_insert.php?session_id=<?=urlencode(session_id())?>" method="post" align="center">
+					<form action="./PHP/turnament_insert.php" method="post" align="center">
                       <table width="40%" height="500px">
 						<div class="row form-group">
 							<div class="row form-group">
@@ -146,7 +146,7 @@
 							<tr>
 								<input type="hidden" name="rid" value="<?=$rid?>">
 								<td>&nbsp;</td>
-								
+								<input type="hidden" name="session_id" value="<?php  $_SESSION['id']; ?>">
 								<td><input type="submit" value="submit" class="btn btn-primary" name="btn_t"> &nbsp; &nbsp; &nbsp;  
 						<input type="submit" value="Reset" class="btn btn-primary"></td>
 
