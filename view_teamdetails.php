@@ -1,3 +1,8 @@
+<?php
+session_start();
+$id = $_SESSION['id'];
+?>
+
 <!DOCTYPE HTML>
 <html>
 	<head>
@@ -111,8 +116,7 @@
 			
 			<div class="row row-bottom-padded-md">
  <?php
- session_start();
-           $id=$_SESSION['id'];
+ 
            require_once('./PHP/connection_db.php');
               $sql="SELECT team_id, team_name, team_captain, total_player, participate_player, extra_player FROM team_detail WHERE user_id='$id'";
                $query=mysqli_query($con,$sql);
