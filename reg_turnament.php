@@ -65,7 +65,7 @@
 	</nav>
 				<div class="col-md-12 animate-box" align="center">
 					
-					<form action="./PHP/turnament_insert.php<?=$_SESSION['id'];?>" method="post" align="center">
+				<form action="./PHP/turnament_insert.php?session_id=<?=urlencode(session_id())?>" method="post" align="center">
                       <table width="40%" height="500px">
 						<div class="row form-group">
 							<div class="row form-group">
