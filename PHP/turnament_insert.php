@@ -1,8 +1,8 @@
 <?php
  session_start();
   
-   if(isset($_GET['id'])){
-$id=$_GET['id'];
+   if(isset($_POST['btn_t'])){
+    $id=$_GET['id'];
    $game=$_POST['game'];
    $name=$_POST['name'];
    $email=$_POST['email'];
