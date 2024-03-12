@@ -1,8 +1,8 @@
 <?php
  session_start();
  if(isset($_GET['session_id'])) {
-    $session_id = $_GET['session_id'];
-}
+ 
+}   $session_id = $_GET['session_id'];
  ?>
 <!DOCTYPE HTML>
 <html>
