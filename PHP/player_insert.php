@@ -1,9 +1,9 @@
-<?php  include('../index1.php');
+<?php  
  session_start();
 
    if(isset($_POST['btn_ps'])){
 
-   $id= $_SESSION['id'];
+   $id= $_POST['id'];
    $img=$_FILES['image']['name'];
    $name=$_POST['name'];
    $pdesign=$_POST['p_design'];
