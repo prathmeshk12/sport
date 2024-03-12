@@ -111,6 +111,7 @@
 			
 			<div class="row row-bottom-padded-md">
  <?php
+ session_start();
            $id=$_SESSION['id'];
            require_once('./PHP/connection_db.php');
               $sql="SELECT team_id, team_name, team_captian, total_player, participate_player, extra_player FROM team_detail WHERE user_id='$id'";
