@@ -154,7 +154,8 @@
 							<tr>
 								<input type="hidden" name="rid" value="<?=$rid?>">
 								<td>&nbsp;</td>
-								<input type="hidden" name="session_id" value="<?$session_id?>">								<td><input type="submit" value="submit" class="btn btn-primary" name="btn_t"> &nbsp; &nbsp; &nbsp;  
+								<input type="hidden" name="session_id" value="<?= $session_id ?>">
+									<td><input type="submit" value="submit" class="btn btn-primary" name="btn_t"> &nbsp; &nbsp; &nbsp;  
 						<input type="submit" value="Reset" class="btn btn-primary"></td>
 
 							</tr>
