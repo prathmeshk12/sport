@@ -1,3 +1,8 @@
+<?php
+session_start();
+
+$uid= $_SESSION['id']; 
+?>
 <!DOCTYPE HTML>
 <html>
 	<head>
@@ -253,7 +258,7 @@
 					</table>
 							<hr>
 
-						<p><a href="reg_turnament.php?rid=<?=$row['t_id'];?>" class="btn btn-primary btn-outline btn-sm">Click To Register <i class="icon-arrow-right"></i></a></p>
+							<p><a href="reg_turnament.php?session_id=<?= urlencode($_SESSION['id']) ?>&rid=<?= $row['t_id'] ?>" class="btn btn-primary btn-outline btn-sm">Click To Register <i class="icon-arrow-right"></i></a></p>
 						</div> 
 						
 					</div>
