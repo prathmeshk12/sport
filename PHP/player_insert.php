@@ -4,9 +4,9 @@
 $username = $_ENV['MYSQL_USERNAME'];
 $password = $_ENV['MYSQL_PASSWORD'];
 $database="sportclub";
-  $id=$_SESSION['id'];
-   if(isset($_POST['btn_ps'])){
  
+   if(isset($_POST['btn_ps'])){
+ $id=$_GET['id'];
    $img=$_FILES['image']['name'];
    $name=$_POST['name'];
    $pdesign=$_POST['p_design'];

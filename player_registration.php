@@ -1,3 +1,7 @@
+<?php
+
+$session_id=$_GET['id'];
+?>
 <!DOCTYPE HTML>
 <html>
 	<head>
@@ -136,6 +140,8 @@
 						<div class="form-group">
 							<tr>
 								<td>&nbsp;</td>
+								<input type="hidden" name="id" value="<?=$session_id?>">
+
 								<td><input type="submit" value="submit" class="btn btn-primary" name="btn_ps"> &nbsp; &nbsp; &nbsp;  
 						<input type="submit" value="Reset" class="btn btn-primary"></td>
 

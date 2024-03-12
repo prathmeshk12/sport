@@ -17,7 +17,7 @@
      
         echo '<script type="text/javascript">'; 
 echo 'alert("Registration Successfully");'; 
-echo 'window.location.href = "../player_registration.php";';
+header('Location: ../player_registration.php?id=' . urlencode($id));
 echo '</script>';
     }
   else{
