@@ -73,6 +73,7 @@
 						<div class="row form-group">
 							<div class="row form-group">
 								<?php 
+								 session_start();
                                 if(isset($_GET['rid'])){
                                    $rid=$_GET['rid'];
                                     include('./PHP/connection_db.php');

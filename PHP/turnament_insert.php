@@ -2,7 +2,7 @@
  session_start();
  
    if(isset($_POST['btn_t'])){
- $id=$_GET['session_id'];
+ $id=$_POST['session_id'];
    $game=$_POST['game'];
    $name=$_POST['name'];
    $email=$_POST['email'];
