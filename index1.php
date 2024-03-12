@@ -252,7 +252,7 @@
 					</tr>
 					</table>
 							<hr>
-						<p><a href="reg_turnament.php?rid=<?=$row['t_id'];?>" class="btn btn-primary btn-outline btn-sm">Click To Register <i class="icon-arrow-right"></i></a></p>
+						<p><a href="reg_turnament.php?rid=<?=$row['t_id'];  $_SESSION['id']?>" class="btn btn-primary btn-outline btn-sm">Click To Register <i class="icon-arrow-right"></i></a></p>
 						</div> 
 						
 					</div>
