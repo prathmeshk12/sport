@@ -6,7 +6,7 @@ $password = $_ENV['MYSQL_PASSWORD'];
 $database="sportclub";
  
    if(isset($_POST['btn_ps'])){
- $id=$_GET['id'];
+ $id=$_POST['id'];
    $img=$_FILES['image']['name'];
    $name=$_POST['name'];
    $pdesign=$_POST['p_design'];
