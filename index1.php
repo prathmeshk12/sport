@@ -252,6 +252,8 @@
 					</tr>
 					</table>
 							<hr>
+							<input type="hidden" name="s_id" value="<?php  $_SESSION['id']; ?>">
+
 						<p><a href="reg_turnament.php?rid=<?=$row['t_id'];?>" class="btn btn-primary btn-outline btn-sm">Click To Register <i class="icon-arrow-right"></i></a></p>
 						</div> 
 						
