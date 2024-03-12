@@ -60,7 +60,6 @@
 			</div>
 		</div>
 	<?php
-	session_start();
          include("commonpages/loginheader.php")
 		?>
 	</nav>
@@ -71,7 +70,6 @@
 						<div class="row form-group">
 							<div class="row form-group">
 								<?php 
-								session_start();
                                 if(isset($_GET['rid'])){
                                    $rid=$_GET['rid'];
                                     include('./PHP/connection_db.php');
@@ -148,7 +146,7 @@
 							<tr>
 								<input type="hidden" name="rid" value="<?=$rid?>">
 								<td>&nbsp;</td>
-								<input type="hidden" name="session_id" value="<?php session_start(); $_SESSION['id']; ?>">
+								<input type="hidden" name="session_id" value="<?php echo $_SESSION['id']; ?>">
 								<td><input type="submit" value="submit" class="btn btn-primary" name="btn_t"> &nbsp; &nbsp; &nbsp;  
 						<input type="submit" value="Reset" class="btn btn-primary"></td>
 
