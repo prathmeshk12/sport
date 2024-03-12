@@ -1,8 +1,8 @@
 <?php
  session_start();
-  $id=$_SESSION['id'];
+ 
    if(isset($_POST['btn_t'])){
-
+    $id = $_POST['id'];
    $tname=$_POST['tname'];
    $cname=$_POST['tcaptian'];
    $total=$_POST['totalp'];
@@ -16,7 +16,7 @@
     if($data){
      
         echo '<script type="text/javascript">'; 
-#echo 'alert("Registration Successfully");'; 
+echo 'alert("Registration Successfully");'; 
 echo 'window.location.href = "../player_registration.php";';
 echo '</script>';
     }

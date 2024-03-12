@@ -19,8 +19,8 @@ $game=$_POST['game'];
     if($data){
      
       //  echo '<script type="text/javascript">';
-        header('Location: ../team_details.php'); 
-#echo 'alert("Registration Successfully");'; 
+      header('Location: ../team_details.php?session_id=' . urlencode($id));
+            //echo 'alert("Registration Successfully"); 
 //echo 'window.location.href = "../team_details.php";';
 echo '</script>';
     }
