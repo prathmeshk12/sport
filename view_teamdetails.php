@@ -114,7 +114,7 @@
  session_start();
            $id=$_SESSION['id'];
            require_once('./PHP/connection_db.php');
-              $sql="SELECT team_id, team_name, team_captian, total_player, participate_player, extra_player FROM team_detail WHERE user_id='$id'";
+              $sql="SELECT team_id, team_name, team_captain, total_player, participate_player, extra_player FROM team_detail WHERE user_id='$id'";
                $query=mysqli_query($con,$sql);
               while($row=mysqli_fetch_array($query)){
               	
