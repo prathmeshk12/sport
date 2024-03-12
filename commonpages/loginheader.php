@@ -1,5 +1,5 @@
 
-<?php require_once('./PHP/logincheck.php');?>
+<?php// require_once('./PHP/logincheck.php');?>
 <div class="top-menu">
 			<div class="container">
 				<div class="row">
