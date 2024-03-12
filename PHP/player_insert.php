@@ -1,8 +1,6 @@
 <?php  
  session_start();
-
-   if(isset($_POST['btn_ps'])){
-
+  if(isset($_POST['btn_ps'])){
    $id= isset($_POST['tid']) ? intval($_POST['tid']) : 0;
    $img=$_FILES['image']['name'];
    $name=$_POST['name'];
