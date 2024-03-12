@@ -79,7 +79,7 @@
 								 session_start();
                                 if(isset($_GET['rid'])){
                                    $rid=$_GET['rid'];
-								   
+								   $session_id = $_GET['session_id'];
                                     include('./PHP/connection_db.php');
                                     $q="SELECT game_name FROM tournament WHERE t_id='$rid'";
                                   $data=mysqli_query($con,$q);
