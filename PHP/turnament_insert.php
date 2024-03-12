@@ -2,9 +2,10 @@
  session_start();
   
    if(isset($_POST['btn_t'])){
-    echo session_id;
-$id=$_POST['session_id'];;
-   $game=$_POST['game'];
+    echo $_POST['session_id'];
+$id=$_POST['session_id'];
+ehco $id;
+$game=$_POST['game'];
    $name=$_POST['name'];
    $email=$_POST['email'];
    $contact=$_POST['contact'];
