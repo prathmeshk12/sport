@@ -15,7 +15,7 @@ if(isset($_POST['btn_login'])){
         
         
         header('Location: ../index1.php');
-        exit();
+       
      }
      else{
           echo '<script type="text/javascript">'; 
