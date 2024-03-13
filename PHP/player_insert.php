@@ -21,7 +21,7 @@
       //move_uploaded_file($_FILES['image']['tmp_name'],"../images1/player_images/$img");
          //echo '<script type="text/javascript">'; 
  //echo 'alert("Registration Successfully");'; 
- header('Location:  ../player_registration.php?session_id=' . urlencode($id)';
+ header('Location:  ../player_registration.php?session_id=' . urlencode($id));
  
      }
    else{
