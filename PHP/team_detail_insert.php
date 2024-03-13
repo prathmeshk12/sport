@@ -16,7 +16,7 @@ if(isset($_POST['btn_t'])){
     if($data){
         // Redirect with session ID as parameter
       
-        header('Location: "../player_registration.php?session_id=' . urlencode($id) . '"');
+        header('Location: ../player_registration.php?session_id=' . urlencode($id));
     }    
     else{
         echo "failed";
