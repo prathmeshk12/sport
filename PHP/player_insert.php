@@ -2,7 +2,7 @@
  session_start();
 
    if(isset($_POST['btn_ps'])){
-  $id= ($_POST['tid']);
+  $id= $_POST['tid'];
    $id= $_SESSION['id'];
    $img=$_FILES['image']['name'];
    $name=$_POST['name'];
