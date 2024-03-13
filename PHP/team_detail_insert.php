@@ -15,11 +15,9 @@ if(isset($_POST['btn_t'])){
     
     if($data){
         // Redirect with session ID as parameter
-        echo '<script type="text/javascript">'; 
-        echo 'alert("Registration Successfully");'; 
-        echo 'window.location.href = "../player_registration.php?session_id=' . urlencode($id) . '";';
-        echo '</script>';
-    }
+      
+        header('Location: "../player_registration.php?session_id=' . urlencode($id) . '"');
+        
     else{
         echo "failed";
     }
