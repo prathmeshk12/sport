@@ -19,7 +19,6 @@
 
 	<link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,700,800" rel="stylesheet">
 	
-
 	<link rel="stylesheet" href="css/animate.css">
 
 	<link rel="stylesheet" href="css/icomoon.css">
@@ -63,7 +62,7 @@
 		</div>
 	<?php
          include("commonpages/loginheader.php")
-		 session_start();
+		
 		 $id = isset($_GET['session_id']) ? intval($_GET['session_id']) : 0;
 		?>
 	</nav>

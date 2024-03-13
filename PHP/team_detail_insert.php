@@ -4,7 +4,7 @@ session_start();
 if(isset($_POST['btn_t'])){
     $id = $_POST['id'];
     $tname = $_POST['tname'];
-    $cname = $_POST['tcaptain'];
+    $cname = $_POST['tcaptian'];
     $total = $_POST['totalp'];
     $participate = $_POST['participate'];
     $extra = $_POST['extra'];
