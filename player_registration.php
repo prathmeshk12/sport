@@ -1,4 +1,6 @@
-
+<?php
+$id =$_GET['session_id'];
+?>
 <!DOCTYPE HTML>
 <html>
 	<head>
@@ -63,7 +65,7 @@
 	<?php
          include("commonpages/loginheader.php")
 		
-		 $id = isset($_GET['session_id']) ? intval($_GET['session_id']) : 0;
+		 
 		?>
 	</nav>
 				<div class="col-md-12 animate-box" align="center">
@@ -75,7 +77,7 @@
 							<?php
          
 	
-		 $id = isset($_GET['session_id']) ? intval($_GET['session_id']) : 0;
+		 $id =$_GET['session_id'];
 		?>
 						</div>
 							<div class="col-md-12">
