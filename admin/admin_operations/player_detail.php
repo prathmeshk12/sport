@@ -96,7 +96,7 @@
       ?>
     <tr style="border-bottom: 2px solid">
       
-       <td><img src="../../images1/player_images/<?=$row['p_image']?>" width="60px" height="60px"></td>
+       <td><?=$row['p_image']?>" width="60px" height="60px"></td>
        <td><?=$row['player_name']?></td>
       
        <td><?=$row['p_designation']?></td>
