@@ -5,7 +5,7 @@ if(isset($_POST['submit'])){
 	$usubject=$_POST['subject'];
 	$uabout=$_POST['about'];
 
-	$con=mysqli_connect("localhost","root","","sportclub");
+	include("connection_db.php");
 	$sql="INSERT INTO feedback(name,email,subject,about) VALUES('$uname','$uemail','$usubject','$uabout')";
 
 	$result=mysqli_query($con,$sql);
