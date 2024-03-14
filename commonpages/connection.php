@@ -4,5 +4,5 @@ $con = new mysqli(
     $_ENV['AZURE_MYSQL_USERNAME'],
     $_ENV['AZURE_MYSQL_PASSWORD'],
     "sportclub"
-);   
+);
 ?>

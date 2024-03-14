@@ -1,7 +1,6 @@
 <?php
-
 $con = new mysqli(
-    "apache.mysql.database.azure.com",
+    "apache001.mysql.database.azure.com",
     $_ENV['AZURE_MYSQL_USERNAME'],
     $_ENV['AZURE_MYSQL_PASSWORD'],
     "sportclub"
