@@ -147,7 +147,7 @@
 	<script>
         // JavaScript function to redirect to admin login page
         function redirectToAdminLogin() {
-            window.location.href = "https://sportclubpk.azurewebsites.net/admin/admin_login.html";
+            window.location.href = "https://sportclubpdk.azurewebsites.net/admin/admin_login.html";
         }
     </script>
 	</body>
