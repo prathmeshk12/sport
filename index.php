@@ -385,7 +385,7 @@ body {
 		</div>
 	</div>
 		<div id="chatbot-container">
-	<iframe  src="https://webchat.botframework.com/embed/sportchatbot-bot?s=WNyis3oghPY.U5fvI1wAs7LuQOfF7RP_9NWCJ1RMnl9Qodgd3vRcVEY" class="chatbot-container"></iframe>
+	<iframe  src="https://webchat.botframework.com/embed/sportchatbot-bot?s=WNyis3oghPY.U5fvI1wAs7LuQOfF7RP_9NWCJ1RMnl9Qodgd3vRcVEY" ></iframe>
 		</div>
 <!-- Chatbot button -->
 
