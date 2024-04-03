@@ -165,12 +165,12 @@
 			</div>
 			<a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
  <img src="chatbot.png" alt="Chatbot" id="chatbot-image">
-		</div><iframe src="https://webchat.botframework.com/embed/sportchatbot-bot?s=WNyis3oghPY.U5fvI1wAs7LuQOfF7RP_9NWCJ1RMnl9Qodgd3vRcVEY" class="chatbot-container"></iframe>
+		
 
 <!-- Chatbot button -->
-<div class="chatbot-button" onclick="toggleChatbot()">Need Help</div>
+<div class="chatbot-button" onclick="toggleChatbot()"><iframe src="https://webchat.botframework.com/embed/sportchatbot-bot?s=WNyis3oghPY.U5fvI1wAs7LuQOfF7RP_9NWCJ1RMnl9Qodgd3vRcVEY" class="chatbot-container"></iframe>Need Help</div>
 
-		<div class="container-fluid">
+		</div><div class="container-fluid">
 			<div class="row row-bottom-padded-md">
 				<div class="col-md-12">
 					<ul id="fh5co-portfolio-list">
