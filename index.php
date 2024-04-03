@@ -163,6 +163,8 @@
 					
 				</div>
 			</div>
+			<a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
+ <img src="chatbot.png" alt="Chatbot" id="chatbot-image">
 		</div><iframe src="https://webchat.botframework.com/embed/sportchatbot-bot?s=WNyis3oghPY.U5fvI1wAs7LuQOfF7RP_9NWCJ1RMnl9Qodgd3vRcVEY" class="chatbot-container"></iframe>
 
 <!-- Chatbot button -->
