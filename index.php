@@ -168,7 +168,7 @@
 		
 
 <!-- Chatbot button -->
-<div onclick="toggleChatbot()"><iframe src="https://webchat.botframework.com/embed/sportchatbot-bot?s=WNyis3oghPY.U5fvI1wAs7LuQOfF7RP_9NWCJ1RMnl9Qodgd3vRcVEY" class="chatbot-container"></iframe>Need Help</div>
+<div onclick="toggleChatbot()"><iframe src="https://webchat.botframework.com/embed/sportchatbot-bot?s=WNyis3oghPY.U5fvI1wAs7LuQOfF7RP_9NWCJ1RMnl9Qodgd3vRcVEY" style="height: 400px; max-height: 400px;" class="chatbot-container"></iframe>Need Help</div>
 
 		</div><div class="container-fluid">
 			<div class="row row-bottom-padded-md">
