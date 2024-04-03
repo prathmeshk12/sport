@@ -105,9 +105,9 @@
             z-index: 9999; /* Ensure the chatbot container appears above the image */
         }
 
-   #chatbot-iframe {
-            height: 400px;
-            max-height: 350px;
+		#chatbot-iframe {
+            height: 450px;
+            max-height: 450px;
             width: 300px; /* Adjust as needed */
         }
 
