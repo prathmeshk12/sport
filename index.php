@@ -90,19 +90,26 @@
     }
 
     /* Chatbot container styles */
-    .chatbot-container {
-        display: none;
-        position: fixed;
-        bottom: 80px;
-        right: 20px;
-        width: 300px;
-        height: 400px;
-        border: none;
-        z-index: 9998;
-        background-color: #fff; /* Set the background color of the container */
-        border-radius: 10px; /* Optional: Add border radius for better appearance */
-        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* Optional: Add box shadow for depth */
-    }
+      #chatbot-image {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            height: 150px;
+        }
+
+        #chatbot-container {
+            display: none;
+            position: fixed;
+            bottom: calc(20px + 200px); /* Adjust based on chatbot image height */
+            right: 20px;
+            z-index: 9999; /* Ensure the chatbot container appears above the image */
+        }
+
+   #chatbot-iframe {
+            height: 400px;
+            max-height: 350px;
+            width: 300px; /* Adjust as needed */
+        }
 
      </style>
 
@@ -381,10 +388,11 @@
 			</div>
 		</div>
 	</div>
+		<div id="chatbot-container">
 	<iframe src="https://webchat.botframework.com/embed/jobchatbot-bot?s=4vKRPVpHOrI.hudYSENIO9VuSnOFCZJtKCGul92e3Er0SxSy2bP811I" class="chatbot-container"></iframe>
-
+		</div>
 <!-- Chatbot button -->
-<div class="chatbot-button" onclick="toggleChatbot()">Get Assistance</div>
+
 	<?php
          include("commonpages/out_footer.php")
 		?>
@@ -396,14 +404,14 @@
 	</div>
 	<script>
     // Function to toggle the visibility of the chatbot iframe
-    function toggleChatbot() {
-        var chatbot = document.querySelector('.chatbot-container');
-        if (chatbot.style.display === 'none') {
-            chatbot.style.display = 'block';
-        } else {
-            chatbot.style.display = 'none';
-        }
-    }
+    const chatbotImage = document.getElementById('chatbot-image');
+    const chatbotContainer = document.getElementById('chatbot-container');
+
+    // Add click event listener to the chatbot image
+    chatbotImage.addEventListener('click', () => {
+        // Toggle the display of the chatbot container
+        chatbotContainer.style.display = chatbotContainer.style.display === 'block' ? 'none' : 'block';
+    });
 </script>
 	<!-- jQuery -->
 	<script src="js/jquery.min.js"></script>
