@@ -76,34 +76,33 @@
     75%{    color:red;  }
    
 }    
- 
-body {
-            position: relative;
-            margin: 0;
-            padding: 0;
-            height: 100vh;
-        }
+      .chatbot-button {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background-color: #FFA500; /* Change the color of the button */
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        z-index: 9999;
+    }
+
     /* Chatbot container styles */
-      #chatbot-image {
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            height: 150px;
-        }
-
-        #chatbot-container {
-            display: none;
-            position: fixed;
-            bottom: calc(20px + 200px); /* Adjust based on chatbot image height */
-            right: 20px;
-            z-index: 9999; /* Ensure the chatbot container appears above the image */
-        }
-
-		#chatbot-iframe {
-            height: 450px;
-            max-height: 450px;
-            width: 300px; /* Adjust as needed */
-        }
+    .chatbot-container {
+        display: none;
+        position: fixed;
+        bottom: 80px;
+        right: 20px;
+        width: 300px;
+        height: 400px;
+        border: none;
+        z-index: 9998;
+        background-color: #fff; /* Set the background color of the container */
+        border-radius: 10px; /* Optional: Add border radius for better appearance */
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* Optional: Add box shadow for depth */
+    }
 
      </style>
 
@@ -157,14 +156,12 @@ body {
 					
 				</div>
 			</div>
-			<a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
- <img src="chatbot.png" alt="Chatbot" id="chatbot-image">
-		
+		</div><iframe src="https://webchat.botframework.com/embed/sportchatbot-bot?s=WNyis3oghPY.U5fvI1wAs7LuQOfF7RP_9NWCJ1RMnl9Qodgd3vRcVEY" class="chatbot-container"></iframe>
 
 <!-- Chatbot button -->
-<div id="chatbot-container" ><iframe src="https://webchat.botframework.com/embed/sportchatbot-bot?s=WNyis3oghPY.U5fvI1wAs7LuQOfF7RP_9NWCJ1RMnl9Qodgd3vRcVEY" style="height: 400px; max-height: 400px;" ></iframe></div>
+<div class="chatbot-button" onclick="toggleChatbot()">Need Help</div>
 
-		</div><div class="container-fluid">
+		<div class="container-fluid">
 			<div class="row row-bottom-padded-md">
 				<div class="col-md-12">
 					<ul id="fh5co-portfolio-list">
@@ -384,11 +381,10 @@ body {
 			</div>
 		</div>
 	</div>
-		<div id="chatbot-container">
-	<iframe  src="https://webchat.botframework.com/embed/sportchatbot-bot?s=WNyis3oghPY.U5fvI1wAs7LuQOfF7RP_9NWCJ1RMnl9Qodgd3vRcVEY" ></iframe>
-		</div>
-<!-- Chatbot button -->
+	<iframe src="https://webchat.botframework.com/embed/jobchatbot-bot?s=4vKRPVpHOrI.hudYSENIO9VuSnOFCZJtKCGul92e3Er0SxSy2bP811I" class="chatbot-container"></iframe>
 
+<!-- Chatbot button -->
+<div class="chatbot-button" onclick="toggleChatbot()">Get Assistance</div>
 	<?php
          include("commonpages/out_footer.php")
 		?>
@@ -400,14 +396,14 @@ body {
 	</div>
 	<script>
     // Function to toggle the visibility of the chatbot iframe
-    const chatbotImage = document.getElementById('chatbot-image');
-    const chatbotContainer = document.getElementById('chatbot-container');
-
-    // Add click event listener to the chatbot image
-    chatbotImage.addEventListener('click', () => {
-        // Toggle the display of the chatbot container
-        chatbotContainer.style.display = chatbotContainer.style.display === 'block' ? 'none' : 'block';
-    });
+    function toggleChatbot() {
+        var chatbot = document.querySelector('.chatbot-container');
+        if (chatbot.style.display === 'none') {
+            chatbot.style.display = 'block';
+        } else {
+            chatbot.style.display = 'none';
+        }
+    }
 </script>
 	<!-- jQuery -->
 	<script src="js/jquery.min.js"></script>
