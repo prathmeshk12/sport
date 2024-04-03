@@ -76,19 +76,13 @@
     75%{    color:red;  }
    
 }    
-      .chatbot-button {
-        position: fixed;
-        bottom: 20px;
-        right: 20px;
-        background-color: #FFA500; /* Change the color of the button */
-        color: white;
-        padding: 10px 20px;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-        z-index: 9999;
-    }
-
+ 
+body {
+            position: relative;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+        }
     /* Chatbot container styles */
       #chatbot-image {
             position: fixed;
